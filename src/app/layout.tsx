@@ -1,6 +1,19 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import support from "@/asset/support.png";
+import Image from "next/image";
+import { InquireForm } from "@/components/InquireForm";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
+import toast, { Toaster } from 'react-hot-toast';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +29,28 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Toaster />
+        {children}
+
+        <Dialog>
+          <DialogTrigger asChild>
+            <div className="fixed bg-white rounded-3xl cursor-pointer bottom-5 right-5 transform transition-all duration-500 ease-in-out hover:scale-110">
+              <Image
+                src={support}
+                alt="Support"
+                width={150}
+                height={150}
+                className=""
+              />
+            </div>
+          </DialogTrigger>
+          <InquireForm></InquireForm>
+        </Dialog>
+
+
+
+      </body>
     </html>
   );
 }

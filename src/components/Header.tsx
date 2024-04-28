@@ -11,6 +11,18 @@ import {
     PopoverContent,
     PopoverTrigger,
 } from "@/components/ui/popover"
+import {
+    Dialog,
+    DialogContent,
+    DialogDescription,
+    DialogFooter,
+    DialogHeader,
+    DialogTitle,
+    DialogTrigger,
+} from "@/components/ui/dialog"
+import { Input } from "@/components/ui/input"
+import { Label } from "@/components/ui/label"
+import { InquireForm } from './InquireForm';
 function Header() {
     return (
         <>
@@ -31,10 +43,16 @@ function Header() {
 
                         <div className='flex items-center gap-2'>
                             <div>
-                                <Button>
-                                    <LuPhoneCall className="mr-2" />
-                                    <span>Inquire Now</span>
-                                </Button>
+
+                                <Dialog>
+                                    <DialogTrigger asChild>
+                                        <Button>
+                                            <LuPhoneCall className="mr-2" />
+                                            <span>Inquire Now</span>
+                                        </Button>                                    
+                                    </DialogTrigger>
+                                    <InquireForm></InquireForm>
+                                </Dialog>
                             </div>
 
                             <div className='block md:hidden'>

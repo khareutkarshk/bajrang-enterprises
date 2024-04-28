@@ -4,10 +4,10 @@ export async function POST(request: Request) {
     await dbConnect();
 
     try {
-        const { name, location, phone, message } = await request.json();
+        const { name, location, phone, email, message } = await request.json();
 
         if (
-            [name, location, phone, message].some((field) => field?.trim() === "")
+            [name, location, phone, email, message].some((field) => field?.trim() === "")
         ) {
             return Response.json({
                 success: false,
@@ -18,7 +18,8 @@ export async function POST(request: Request) {
             name,
             location,
             phone,
-            message
+            message,
+            email
         })
         return Response.json({
             success: true,
