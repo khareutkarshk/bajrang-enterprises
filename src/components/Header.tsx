@@ -33,7 +33,7 @@ function Header() {
                             <Link className='hover:text-primary font-semibold' href="/products">Products</Link>
                             <Link className='hover:text-primary font-semibold' href="/reviews">Reviews</Link>
                             <Link className='hover:text-primary font-semibold' href="/service">Service</Link>
-                            <Link className='hover:text-primary font-semibold' href="/contact">Contact Us</Link>
+                            <Link className='hover:text-primary font-semibold' href="/contact-us">Contact Us</Link>
                         </nav>
 
                         <div className='flex items-center gap-2'>
