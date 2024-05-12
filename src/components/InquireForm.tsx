@@ -26,7 +26,7 @@ export function InquireForm() {
             const response = await axios.post('/api/inquire', data);
             console.log(response.data);
             const mail = await axios.post('/api/send', data);
-            toast.success("We have received your inquiry, we will get back to you soon", { duration: 5000 })
+            toast.success("We've got your inquiry and will be in touch shortly.", { duration: 5000 })
             setLoading(false);
         } catch (error) {
             toast.error("An error occurred while submitting your inquiry")

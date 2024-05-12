@@ -13,11 +13,6 @@ import {
 } from "@/components/ui/popover"
 import {
     Dialog,
-    DialogContent,
-    DialogDescription,
-    DialogFooter,
-    DialogHeader,
-    DialogTitle,
     DialogTrigger,
 } from "@/components/ui/dialog"
 import { Input } from "@/components/ui/input"
@@ -35,10 +30,10 @@ function Header() {
                         </Link>
 
                         <nav className="flex items-center space-x-6 hidden md:block">
-                            <Link className='hover:text-primary font-semibold' href="/about">Products</Link>
-                            <Link className='hover:text-primary font-semibold' href="/contact">Reviews</Link>
-                            <Link className='hover:text-primary font-semibold' href="/login">Service</Link>
-                            <Link className='hover:text-primary font-semibold' href="/signup">Contact Us</Link>
+                            <Link className='hover:text-primary font-semibold' href="/products">Products</Link>
+                            <Link className='hover:text-primary font-semibold' href="/reviews">Reviews</Link>
+                            <Link className='hover:text-primary font-semibold' href="/service">Service</Link>
+                            <Link className='hover:text-primary font-semibold' href="/contact">Contact Us</Link>
                         </nav>
 
                         <div className='flex items-center gap-2'>

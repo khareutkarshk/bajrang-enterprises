@@ -17,7 +17,7 @@ function BannerArea() {
                 <div className="absolute inset-0 bg-gradient-to-b from-black via-black opacity-70 to-transparent md:bg-transparent"></div>
                 <div className="absolute md:top-1/2 top-1/4 md:right-20 transform md:-translate-x-0 md:-translate-y-1/4 px-6 right-0 text-white font-bold">
                     <h1 className='text-5xl'>
-                        High Performance <span className='text-primary'>Laser</span> Cutting Machines
+                        High Performance <br /> <span className='text-primary'>Laser</span> Cutting Machines
                     </h1>
                     <div className='text-xl flex items-center mt-5 justify-end font-light'>
                         <span>

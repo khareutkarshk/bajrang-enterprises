@@ -14,6 +14,8 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog"
 import toast, { Toaster } from 'react-hot-toast';
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,22 +33,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Toaster />
+        <Header />
         {children}
+        <Footer />
 
-        <Dialog>
-          <DialogTrigger asChild>
-            <div className="fixed bg-white rounded-3xl cursor-pointer bottom-5 right-5 transform transition-all duration-500 ease-in-out hover:scale-110">
-              <Image
-                src={support}
-                alt="Support"
-                width={150}
-                height={150}
-                className=""
-              />
-            </div>
-          </DialogTrigger>
-          <InquireForm></InquireForm>
-        </Dialog>
+       
 
 
 

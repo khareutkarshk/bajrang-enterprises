@@ -7,12 +7,14 @@ import { Separator } from './ui/separator';
 import { Button } from './ui/button';
 import BannerArea from './BannerArea';
 import ProductArea from './ProductArea';
+import Testimonials from './Testimonials';
+import Footer from './Footer';
 function Home() {
     return (
         <>
-            <Header></Header>
             <BannerArea></BannerArea>
             <ProductArea></ProductArea>
+            <Testimonials></Testimonials>
         </>
 
     )
