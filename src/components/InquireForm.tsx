@@ -40,7 +40,7 @@ export function InquireForm() {
                 <DialogHeader>
                     <DialogTitle>Request a Quote</DialogTitle>
                     <DialogDescription>
-                        Whether you're seeking general advice or targeted assistance, we're here and ready to assist.
+                        {"Whether you're seeking general advice or targeted assistance, we're here and ready to assist."}
                     </DialogDescription>
                 </DialogHeader>
                 <form onSubmit={handleSubmit(submitHandler)}>

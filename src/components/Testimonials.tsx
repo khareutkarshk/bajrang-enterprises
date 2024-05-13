@@ -64,7 +64,7 @@ function Testimonials() {
                                 <li>
                                     <figure className="relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
                                         <blockquote className="relative">
-                                            <p className="text-lg tracking-tight text-slate-900">I'm impressed with the laser machines I purchased from this site. The quality is outstanding, and the prices are unbeatable.</p>
+                                            <p className="text-lg tracking-tight text-slate-900">I am impressed with the laser machines I purchased from this site. The quality is outstanding, and the prices are unbeatable.</p>
                                         </blockquote>
                                         <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
                                             <div>
@@ -112,7 +112,7 @@ function Testimonials() {
                                 <li>
                                     <figure className="relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
                                         <blockquote className="relative">
-                                            <p className="text-lg tracking-tight text-slate-900">The laser machines from this store are top-notch. I'm impressed by their precision and reliability. Highly recommended!</p>
+                                            <p className="text-lg tracking-tight text-slate-900">The laser machines from this store are top-notch. I am impressed by their precision and reliability. Highly recommended!</p>
                                         </blockquote>
                                         <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
                                             <div>

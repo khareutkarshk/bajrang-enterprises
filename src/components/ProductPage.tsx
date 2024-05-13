@@ -33,58 +33,72 @@ import { useState } from 'react';
 function ProductPage() {
     const [data, setData] = useState([
         {
+            id: 1,
             name: 'Laser Cutting',
             img: laser00
         },
         {
+            id: 2,
             name: 'Laser Cutting',
             img: laser01
         },
         {
+            id: 3,
             name: 'Laser Cutting',
             img: laser02
         },
         {
+            id: 4,
             name: 'Laser Cutting',
             img: laser03
         },
         {
+            id: 5,
             name: 'Marking Machine',
             img: marking00
         },
         {
+            id: 6,
             name: 'Marking Machine',
             img: marking01
         },
         {
+            id: 7,
             name: 'Welding Machine',
             img: welding00
         },
         {
+            id: 8,
             name: 'Welding Machine',
             img: welding01
         },
         {
+            id: 9,
             name: 'Welding Machine',
             img: welding02
         },
         {
+            id: 10,
             name: 'Bending Machine',
             img: bending00
         },
         {
+            id: 11,
             name: 'Bending Machine',
             img: bending01
         },
         {
+            id: 12,
             name: 'Bending Machine',
             img: bending02
         },
         {
+            id: 13,
             name: 'Router Machine',
             img: router00
         },
         {
+            id: 14,
             name: 'Router Machine',
             img: router01
         }
@@ -102,7 +116,7 @@ function ProductPage() {
 
                 {
                     data.map((item:any) => (
-                        <Dialog>
+                        <Dialog key={item.id}>
                         <DialogTrigger asChild>
 
                             <article className="relative cursor-pointer w-full isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto mt-24">
