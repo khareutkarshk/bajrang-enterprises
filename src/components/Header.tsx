@@ -44,7 +44,7 @@ function Header() {
                                         <Button>
                                             <LuPhoneCall className="mr-2" />
                                             <span>Inquire Now</span>
-                                        </Button>                                    
+                                        </Button>
                                     </DialogTrigger>
                                     <InquireForm></InquireForm>
                                 </Dialog>
@@ -63,10 +63,10 @@ function Header() {
                                         <div className="grid gap-4">
                                             <div className="space-y-2">
                                                 <nav className='flex flex-col gap-3'>
-                                                    <Link className='hover:text-primary font-semibold' href="/about">Products</Link>
-                                                    <Link className='hover:text-primary font-semibold' href="/contact">Reviews</Link>
-                                                    <Link className='hover:text-primary font-semibold' href="/login">Service</Link>
-                                                    <Link className='hover:text-primary font-semibold' href="/signup">Contact Us</Link>
+                                                    <Link className='hover:text-primary font-semibold' href="/products">Products</Link>
+                                                    <Link className='hover:text-primary font-semibold' href="/reviews">Reviews</Link>
+                                                    <Link className='hover:text-primary font-semibold' href="/service">Service</Link>
+                                                    <Link className='hover:text-primary font-semibold' href="/contact-us">Contact Us</Link>
                                                 </nav>
                                             </div>
 
