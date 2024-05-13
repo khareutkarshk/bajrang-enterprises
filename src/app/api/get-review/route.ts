@@ -8,16 +8,12 @@ export async function GET(request: Request) {
         const reviews = await ReviewModel.find({});
 
         // short it by created at field using aggrigation pipeline
-        const reviewList = await ReviewModel.aggregate([
-            {
-                $sort: { createdAt: -1 }
-            }
-        ]);
+        
 
 
         return Response.json({
             success: true,
-            data: reviewList
+            data: reviews
         }, { status: 200 });
 
     } catch (error) {
