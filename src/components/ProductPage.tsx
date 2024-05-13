@@ -3,23 +3,25 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { Button } from './ui/button'
-import laser00 from "@/asset/laser-cutting00.png"
 import laser01 from "@/asset/laser-cutting01.png"
 import laser02 from "@/asset/laser-cutting02.png"
 import laser03 from "@/asset/laser-cutting04.png"
 
+import laser00 from "@/asset/laser-cutting00.png"
+import welding00 from "@/asset/welding00.png"
 import marking00 from "@/asset/marking00.png"
+import bending00 from "@/asset/bending00.png"
+import router00 from "@/asset/router00.png"
+
+
 import marking01 from "@/asset/marking01.png"
 
-import welding00 from "@/asset/welding00.png"
 import welding01 from "@/asset/welding01.png"
 import welding02 from "@/asset/welding02.png"
 
-import bending00 from "@/asset/bending00.png"
 import bending01 from "@/asset/bending01.png"
 import bending02 from "@/asset/bending02.png"
 
-import router00 from "@/asset/router00.png"
 import router01 from "@/asset/router01.png"
 
 import {

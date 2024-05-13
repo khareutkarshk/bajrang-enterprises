@@ -16,7 +16,13 @@ import slide1 from "@/asset/slide01.png"
 import slide2 from "@/asset/slide02.png"
 import slide3 from "@/asset/slide03.png"
 
-import slide000 from "@/asset/slide000.png"
+import {
+    Dialog,
+    DialogTrigger,
+} from "@/components/ui/dialog"
+import { InquireForm } from './InquireForm';
+
+
 function BannerArea() {
     const plugin = React.useRef(
         Autoplay({ delay: 4000, stopOnInteraction: true })
@@ -57,7 +63,13 @@ function BannerArea() {
                                 </div>
                                 <div className='flex justify-start mt-6 text-'>
 
-                                    <Button className='bg-transparent text-muted text-xl font-semibold border-2 border-primary'>Learn More</Button>
+                                    <Dialog>
+                                        <DialogTrigger asChild>
+                                                <Button className='bg-transparent text-muted text-xl font-semibold border-2 border-primary'>Learn More</Button>
+
+                                        </DialogTrigger>
+                                        <InquireForm></InquireForm>
+                                    </Dialog>
                                 </div>
                             </div>
                         </div>
@@ -87,8 +99,13 @@ function BannerArea() {
                                     </div>
                                     <div className='flex justify-start mt-6 text-'>
 
-                                        <Button className='bg-transparent text-muted text-xl font-semibold border-2 border-primary'>Learn More</Button>
-                                    </div>
+                                    <Dialog>
+                                        <DialogTrigger asChild>
+                                                <Button className='bg-transparent text-muted text-xl font-semibold border-2 border-primary'>Learn More</Button>
+
+                                        </DialogTrigger>
+                                        <InquireForm></InquireForm>
+                                    </Dialog>                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -105,7 +122,7 @@ function BannerArea() {
                                 />
                                 <div className="absolute md:top-1/2 top-20 md:left-20 transform md:-translate-y-1/2 px-6 text-white font-bold">
                                     <h1 className='text-5xl font-semibold uppercase'>
-                                     <span className='text-primary'>Secure</span> year-round <br /> performance
+                                        <span className='text-primary'>Secure</span> year-round <br /> performance
                                     </h1>
                                     <hr className="border-t-2 w-1/3 border-primary mt-6" />
                                     <div className='text-xl flex items-center mt-5 justify-start font-light'>
@@ -115,8 +132,13 @@ function BannerArea() {
                                     </div>
                                     <div className='flex justify-start mt-6 text-'>
 
-                                        <Button className='bg-transparent text-muted text-xl font-semibold border-2 border-primary'>Learn More</Button>
-                                    </div>
+                                    <Dialog>
+                                        <DialogTrigger asChild>
+                                                <Button className='bg-transparent text-muted text-xl font-semibold border-2 border-primary'>Learn More</Button>
+
+                                        </DialogTrigger>
+                                        <InquireForm></InquireForm>
+                                    </Dialog>                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -133,7 +155,7 @@ function BannerArea() {
                                 />
                                 <div className="absolute md:top-1/2 top-16 md:left-20 transform md:-translate-y-1/2 px-6 text-white font-bold">
                                     <h1 className='text-5xl font-semibold uppercase'>
-                                    Don't just buy a machine, <br /> get a  <span className='text-primary'>partnership</span>
+                                        Don't just buy a machine, <br /> get a  <span className='text-primary'>partnership</span>
                                     </h1>
                                     <hr className="border-t-2 w-1/3 border-primary mt-6" />
                                     <div className='text-sm flex items-center mt-5 font-light'>
@@ -142,7 +164,7 @@ function BannerArea() {
                                         </span>
                                         <div className="border-l-2 h-5 mx-3 border-white"></div>
                                         <span>
-                                           Cleaning
+                                            Cleaning
                                         </span>
                                         <div className="border-l-2 h-5 mx-3 border-white"></div>
                                         <span>
@@ -155,15 +177,20 @@ function BannerArea() {
                                     </div>
                                     <div className='text-xl flex items-center mt-5 justify-start font-light'>
                                         <span className='capitalize'>
-                                             <span className="text-primary">4 Preventive Services</span>  Expand your laser's life !
+                                            <span className="text-primary">4 Preventive Services</span>  Expand your laser's life !
                                         </span>
                                     </div>
                                     <div className='flex justify-start mt-6 text-'>
 
-                                        <Button className='bg-transparent text-muted text-xl font-semibold border-2 border-primary'>Learn More</Button>
-                                    </div>
+                                    <Dialog>
+                                        <DialogTrigger asChild>
+                                                <Button className='bg-transparent text-muted text-xl font-semibold border-2 border-primary'>Learn More</Button>
+
+                                        </DialogTrigger>
+                                        <InquireForm></InquireForm>
+                                    </Dialog>                                    </div>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </CarouselItem>

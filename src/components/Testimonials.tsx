@@ -16,12 +16,11 @@ function Testimonials() {
                                 <li>
                                     <figure className="relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
                                         <blockquote className="relative">
-                                            <p className="text-lg tracking-tight text-slate-900">I love the fitness apparel and gear I purchased from
-                                                this site. The quality is exceptional and the prices are unbeatable.</p>
+                                            <p className="text-lg tracking-tight text-slate-900">The laser machines I acquired here fit perfectly and perform amazingly. I strongly recommend this store to anyone seeking top-quality equipment.</p>
                                         </blockquote>
                                         <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
                                             <div>
-                                                <div className="font-display text-base text-slate-900">Sheryl Berge</div>
+                                                <div className="font-display text-base text-slate-900">Aaypee Industries Lucknow</div>
                                             </div>
                                             <div className="flex items-center justify-center mt-4">
                                                 <svg className="text-yellow-500 w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
@@ -65,12 +64,11 @@ function Testimonials() {
                                 <li>
                                     <figure className="relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
                                         <blockquote className="relative">
-                                            <p className="text-lg tracking-tight text-slate-900">As a professional athlete, I rely on high-performance
-                                                gear for my training. This site offers a great selection of top-notch products.</p>
+                                            <p className="text-lg tracking-tight text-slate-900">I'm impressed with the laser machines I purchased from this site. The quality is outstanding, and the prices are unbeatable.</p>
                                         </blockquote>
                                         <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
                                             <div>
-                                                <div className="font-display text-base text-slate-900">Leland Kiehn</div>
+                                                <div className="font-display text-base text-slate-900">Vindhya Almirah Mirzapur</div>
                                             </div>
                                             <div className="flex items-center justify-center mt-4">
                                                 <svg className="text-yellow-500 w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
@@ -114,12 +112,11 @@ function Testimonials() {
                                 <li>
                                     <figure className="relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
                                         <blockquote className="relative">
-                                            <p className="text-lg tracking-tight text-slate-900">The fitness apparel I bought here fits perfectly and
-                                                feels amazing. I highly recommend this store to anyone looking for quality gear.</p>
+                                            <p className="text-lg tracking-tight text-slate-900">The laser machines from this store are top-notch. I'm impressed by their precision and reliability. Highly recommended!</p>
                                         </blockquote>
                                         <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
                                             <div>
-                                                <div className="font-display text-base text-slate-900">Peter Renolds</div>
+                                                <div className="font-display text-base text-slate-900">Zoya industries Darbhanga</div>
                                             </div>
                                             <div className="flex items-center justify-center mt-4">
                                                 <svg className="text-yellow-500 w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
