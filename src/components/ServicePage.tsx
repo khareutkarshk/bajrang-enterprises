@@ -16,7 +16,7 @@ function ServicePage() {
     const submitHandler = async (data: any) => {
         try {
             setLoading(true);
-            const response = await axios.post('/api/inquire', data);
+            const response = await axios.post('/api/service', data);
             console.log(response.data);
             const mail = await axios.post('/api/send', data);
             toast.success("We've got your request and will be in touch shortly.", { duration: 5000 })
