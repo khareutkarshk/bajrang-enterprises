@@ -3,6 +3,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import logo from '@/asset/logo.png'
+import logo2 from "@/asset/logo02.png"
 import { Button } from '@/components/ui/button'
 import { LuPhoneCall } from "react-icons/lu";
 import { RiMenu3Line } from "react-icons/ri";
@@ -23,9 +24,12 @@ function Header() {
         <>
             <>
                 <div className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/50 ">
+                <div className='bg-accent-foreground p-2 text-white text-center'>
+                    Click <a className='underline' href="/catalouge.pdf" download>here</a> to download our catalogue
+                </div>
                     <header className="flex h-16 w-full shrink-0 items-center justify-between px-2 md:px-8">
                         <Link className="mr-6" href="/">
-                            <Image src={logo} alt="logo" width={110} />
+                            <Image src={logo2} alt="logo" width={110} />
                             <span className="sr-only">Bajrang Enterprises</span>
                         </Link>
 

@@ -51,7 +51,7 @@ function BannerArea() {
                                 className='h-full w-full object-cover'
                             />
                             <div className="absolute md:top-1/2 top-20 md:left-20 transform md:-translate-y-1/2 px-6 text-white font-bold">
-                                <h1 className='text-5xl font-semibold '>
+                                <h1 className='sm:text-5xl text-4xl font-semibold '>
                                     UNLEASH YOUR CREATIVITY <br /> WITH <span className='text-primary'>CONFIDENCE</span>
                                 </h1>
                                 <hr className="border-t-2 w-1/3 border-primary mt-6" />
@@ -87,7 +87,7 @@ function BannerArea() {
                                     objectFit="cover"
                                 />
                                 <div className="absolute md:top-1/2 top-20 md:left-20 transform md:-translate-y-1/2 px-6 text-white font-bold">
-                                    <h1 className='text-5xl font-semibold uppercase '>
+                                    <h1 className='sm:text-5xl text-4xl font-semibold uppercase '>
                                         Laser Focused <br /> on <span className='text-primary'>Your Success !</span>
                                     </h1>
                                     <hr className="border-t-2 w-1/3 border-primary mt-6" />
@@ -121,7 +121,7 @@ function BannerArea() {
                                     objectFit="cover"
                                 />
                                 <div className="absolute md:top-1/2 top-20 md:left-20 transform md:-translate-y-1/2 px-6 text-white font-bold">
-                                    <h1 className='text-5xl font-semibold uppercase'>
+                                    <h1 className='sm:text-5xl text-4xl font-semibold uppercase'>
                                         <span className='text-primary'>Secure</span> year-round <br /> performance
                                     </h1>
                                     <hr className="border-t-2 w-1/3 border-primary mt-6" />
@@ -154,11 +154,11 @@ function BannerArea() {
                                     objectFit="cover"
                                 />
                                 <div className="absolute md:top-1/2 top-16 md:left-20 transform md:-translate-y-1/2 px-6 text-white font-bold">
-                                    <h1 className='text-5xl font-semibold uppercase'>
+                                    <h1 className='sm:text-5xl text-4xl font-semibold uppercase'>
                                     {"Don't just buy a machine, "} <br /> get a  <span className='text-primary'>partnership</span>
                                     </h1>
                                     <hr className="border-t-2 w-1/3 border-primary mt-6" />
-                                    <div className='text-sm flex items-center mt-5 font-light'>
+                                    <div className='sm:text-sm text-xs flex items-center mt-5 font-light'>
                                         <span>
                                             Calibration
                                         </span>
